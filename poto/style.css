@@ -10,6 +10,7 @@
     .banner li img {width:30%; vertical-align:middle;}
     .header {background-color:#333333;}
     .main{text-align:center;}
+
     
     @media only screen and (min-width: 0px) {        /* mobile */
     .col-m-0 {width: 0%;} .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;}    .col-m-4 {width: 33.33%;}
@@ -28,7 +29,9 @@
     ol li a:hover{color:gray;}
     ol li a:active{color:gray;}
     ul{list-style-type:square; }
-  
+
+    aside{width:18%;float:left; line-height:30px;}
+
     body{
         font-family: 'Do Hyeon';
     }
