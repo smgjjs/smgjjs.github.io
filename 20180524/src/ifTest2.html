@@ -26,26 +26,22 @@
       </ul></nav>
      <section>
       <h2>연산자 예제실습</h2>
-      <script>
-        var score = window.prompt("점수 입력");
-  score = parseFloat(score);
-  var grade= undefined;
-  if(score>=90){
-  grade="A";
-  }
-  else if(score>= 80){
-  grade="B"
-  }
-  else if(score>= 70){
-  grade="C"
-  }else{
-  grade="F"
-  }
-      doccument.srite("grade=",grade,"<br/>");
-      </script>
-     </section>
-     <footer>
-      <p>&copy; 20XXMode by Korea. All rights reseved.</p>
-     </footer>
-   </body>
+  <script>
+    var score=window.prompt("점수입력:");
+    score=parseFloat(score);
+    var grade=undefined;
+    if(score>=90){
+      grade="A";
+    } else if (score>=80){
+      grade="B";
+    } else if (score>=70){
+      grade="C";
+    } else{
+      grade="F"; 
+    }
+    document.write("grade=",grade,"<br/>");
+  </script>
+  </section>
+  <footer><p>&copy;20XX Korea. All rights reserved.</p></footer>
+  </body>
 </html>
