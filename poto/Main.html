@@ -3,7 +3,38 @@
 <html lang="ko">
 <head>
     <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css"/>
+    <style>
+    header, nav, section, article, aside, footer
+    {border:1px solid gray; margin:5px; padding:8px; width:98%;}
+    header img{width:60%;height:32%;}
+    img{width: 100px; height:60px;}
+    section{width:75%;float:left;}
+    section section{width:95%;float:left; margin:5px; padding:5px;}
+    aside{width:18%;float:left; line-height:30px;}
+    footer{height:50px;clear:both;}
+    nav ul{margin:0;padding:0;}
+    nav ul li{display:inline;margin:5px;}
+    aside ul{margin:0;padding:0;}
+    aside ul li{display:block;margin:5px;}
+    aside ul li img{width:40px;height:40px;}
+    a:link{
+    color:black;background-color:transparent;text-decoration:none;}
+    a:visited{
+    color:black;background-color:transparent;text-decoration:none;}
+    a:hover{
+      color:red;background-color:transparent;text-decoration:underline;}
+    a:active{
+      color:red;background-color:transparent;text-decoration:none;}
+      *{box-sizing:border-box; padding:0; margin:0;}
+      .row::after{content:"";clear:both;display:table;}
+      [class*="col-"]{float:left; padding:10px;}
+      table, th, td{border:1px solid black; border-collapse: collapse;}
+      table{width:100%;}
+      th, td{text-align:center; padding:10px; vertical-align:bottom;}
+      th{background-color:gray; color:white;}
+      tr:nth-child(odd){background-color:lightgray;}
+      table.ex1{table-layout:auto;}
+    </style>
    
     <title>포트폴리오</title>
 </head>
